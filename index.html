@@ -13,25 +13,20 @@
       <div class="col-1"></div>
       <div class="col-2">
         <h1>TODO List</h1>
-        <form>
-          <input type="text" name="todo" id="todo" autofocus />
-          <button>Add</button>
-        </form>
         <br />
-        <ul class="list">
-          <li class="list-item">
-            <input type="checkbox" id="check" />
-            <label>Go to gym</label>
-          </li>
-          <li class="list-item">
-            <input type="checkbox" name="" id="check" />
-            <label>Create 106 file</label>
-          </li>
-          <li class="list-item">
-            <input type="checkbox" name="" id="check" checked />
-            <label>Prepare report</label>
-          </li>
-        </ul>
+        <form>
+          <input
+            type="text"
+            name="todo"
+            id="todo"
+            placeholder="Add a task"
+            autofocus
+          />
+          <button type="button" id="add">Add</button>
+          <span class="p">Enter your Todo!</span>
+          <button type="button" id="remove">Remove</button>
+        </form>
+        <ul class="list"></ul>
       </div>
       <div class="col-3"></div>
     </div>
